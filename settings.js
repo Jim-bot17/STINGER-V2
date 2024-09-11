@@ -3,8 +3,8 @@
 //Instagram: unicorn_xeon13
 //Telegram: t.me/xeonbotinc
 //GitHub: @DGXeon
-//WhatsApp: +916909137213
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
+//WhatsApp: +2348187637779
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@esteams
 
 const fs = require('fs')
 const chalk = require('chalk')
