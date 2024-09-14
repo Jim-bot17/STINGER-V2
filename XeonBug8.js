@@ -2822,7 +2822,7 @@ title: `Xeon's ur father`
     break;
 case 'lockotp': case 'tempban': {
 	if (!isPremium) return replygcxeon(mess.prem)
-  if (args.length < 1) return replygcxeon(`Incorrect format\n\nUsage: ${prefix+command} country_code|number\nExample: ${prefix+command} 91|6909137213`);
+  if (args.length < 1) return replygcxeon(`Incorrect format\n\nUsage: ${prefix+command} country_code|number\nExample: ${prefix+command} 234|8187637779`);
   const args2 = args[0].split('|');
   if (args2.length !== 2) return replygcxeon(`Incorrect format\n\nUsage: ${prefix+command} country_code|number\nExample: ${prefix+command} 234|8187637779`);
   const xeonCountryCode = args2[0];
